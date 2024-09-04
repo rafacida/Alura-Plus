@@ -7,8 +7,15 @@
     --fonte-principal: 'roboto';
 
 }
-body{background-color: var(--cor_de_fundo);
-color: var(--branco-principal)}
+body{
+    background-color: var(--cor_de_fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    
+ 
+}
 
 *{margin:0;
 padding: 0;
@@ -37,4 +44,10 @@ padding: 0;
 .botao_secundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal);
+}
+
+.container__aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+    
 }
